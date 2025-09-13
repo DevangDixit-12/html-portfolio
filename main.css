@@ -1,0 +1,40 @@
+body {
+    background-color: rgb(217, 215, 215);
+}
+.container {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+img {
+  width: 200px; 
+  height: 200px; 
+  object-fit: cover; 
+  border-radius: 50%; 
+}
+h1 {
+    color: rgb(0, 37, 50);
+    text-shadow: 0 0 10px #fff;
+    text-align: center;
+    font-family:'Times New Roman';
+    font-weight: bold;
+}
+h2 {
+    font-weight: bold;
+    font-family: 'Times New Roman', Times, serif;
+}
+.introd {
+    text-align: center;
+    font-family: serif;
+    text-shadow: 0 0 0.8px;
+}
+a {
+    display: inline-block;
+    color: #000;
+    text-decoration: none;
+    transition: transform 0.3s ease-in-out;
+}
+a:hover {
+    transform: scale(1.1);
+    text-shadow: 0 0 10px #fff;
+}
